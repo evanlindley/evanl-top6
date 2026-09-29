@@ -1,6 +1,48 @@
+
+/*
+COLORS
+COLORS
+COLORS
+https://coolors.co/palette/39d05c-35e95f-35d475-35ac7a-347f83-2e518a-40288f-5702a1-6500a3-8127b9
+*/
+
+[data-theme="niwen"] {
+    --color-primary: #8127B9;
+    --color-secondary: #40288F;
+    --color-purple: #8127B9;
+    --color-darkpurp: #490076;
+    --color-darkblue: #40288F;
+    --color-luma: #347F83;
+    --color-green: #39D05C;
+}
+
+
+
+body {
+    background: var(--color-darkpurp);
+}
+
+#method {
+    background-color: var(--color-luma);
+}
+
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--color-darkblue);
+    border-color: var(--color-darkblue);
+    border-radius: 20px;
+    text-shadow: 2px 2px 5px var(--color-purple);
+}
+
+/********** HERO ***********/
+/********** HERO ***********/
+/********** HERO ***********/
+
 .hero-mesh {
     background: url("https://wallpapercrafter.com/desktop/121996-Ori-and-the-Will-of-the-Wisps-screen-shot-video-games-colorful-Ori.jpg");
     background-position: center;
     background-size: cover;
 }
-
