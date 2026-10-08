@@ -71,3 +71,23 @@ body {
     color: white;
     font-weight: 500;
 }
+
+.hero-cue {
+    display: none;
+}
+
+
+
+
+
+.method-h,
+.eyebrow,
+.section-title,
+.section-support {
+    color: white;
+}
+
+#footer-name,
+#footer-copyright {
+    color: black;
+}
