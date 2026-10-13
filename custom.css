@@ -87,6 +87,14 @@ body {
     color: white;
 }
 
+.carousel {
+    max-height: 400px;
+}
+
+.carousel-item {
+    object-fit: cover;
+}
+
 #footer-name,
 #footer-copyright {
     color: black;
