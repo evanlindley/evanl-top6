@@ -26,6 +26,7 @@ body {
     background-color: var(--color-luma);
 }
 
+.navi,
 .btn {
     transition: all 0.2s ease-in-out;
 }
@@ -48,6 +49,9 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.navi:hover {
+    color: green;
+}
 
 /********** HERO ***********/
 /********** HERO ***********/
@@ -91,8 +95,10 @@ body {
     max-height: 400px;
 }
 
-.carousel-item {
+.w-full {
     object-fit: cover;
+    object-position: center;
+    scroll-behavior: smooth;
 }
 
 #footer-name,
