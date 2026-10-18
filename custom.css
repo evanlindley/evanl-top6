@@ -49,9 +49,7 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.navi:hover {
-    color: green;
-}
+
 
 /********** HERO ***********/
 /********** HERO ***********/
@@ -93,6 +91,11 @@ body {
 
 .carousel {
     max-height: 400px;
+}
+
+.btn-circle {
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
 }
 
 .w-full {
