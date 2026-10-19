@@ -93,11 +93,6 @@ body {
     max-height: 400px;
 }
 
-.btn-circle {
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-}
-
 .w-full {
     object-fit: cover;
     object-position: center;
