@@ -11,9 +11,10 @@ https://coolors.co/palette/39d05c-35e95f-35d475-35ac7a-347f83-2e518a-40288f-5702
     --color-secondary: #40288F;
     --color-purple: #8127B9;
     --color-darkpurp: #490076;
-    --color-darkblue: #40288F;
-    --color-luma: #3276a6;
+    --color-darkblue: #50288f;
+    --color-luma: #3a5183;
     --color-green: #39D05C;
+    --color-lightpurp: #9e67c0;
 }
 
 
@@ -49,6 +50,18 @@ body {
   backdrop-filter: blur(10px);
 }
 
+h1, h2, h3, .site-nav-brand, .rank {
+    font-family: "Jim Nightshade", cursive;
+}
+
+.rank {
+    font-size: 8rem;
+}
+
+
+* {
+    font-family: "Average Sans", sans-serif;
+}
 
 
 /********** HERO ***********/
@@ -72,6 +85,7 @@ body {
     text-shadow: 2px 2px 5px black;
     color: white;
     font-weight: 500;
+    max-width: 50%;
 }
 
 .hero-cue {
@@ -80,13 +94,15 @@ body {
 
 
 
-
-
 .method-h,
 .eyebrow,
 .section-title,
 .section-support {
     color: white;
+}
+
+.method-h {
+    font-size: 20px
 }
 
 .carousel {
