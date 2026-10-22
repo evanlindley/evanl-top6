@@ -93,7 +93,7 @@ h1, h2, h3, .site-nav-brand, .rank {
 }
 
 
-
+#honorable-explain,
 .method-h,
 .eyebrow,
 .section-title,
@@ -113,6 +113,17 @@ h1, h2, h3, .site-nav-brand, .rank {
     object-fit: cover;
     object-position: center;
     scroll-behavior: smooth;
+}
+
+/*
+#honorable-label {
+    padding: ;
+}
+*/
+
+#honorable-explain,
+#honorable-header {
+    text-align: center;    
 }
 
 #footer-name,
